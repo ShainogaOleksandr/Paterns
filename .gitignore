@@ -2,3 +2,5 @@
 /target/classes/observer/
 /paterns.iml
 /pom.xml
+/target/classes/META-INF/paterns.kotlin_module
+*.class

@@ -1,9 +1,9 @@
-package observer;
+package observer.my;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class SimpleSubject implements Subject{
+public class SimpleSubject implements Subject {
     private List<Observer> observers= new LinkedList<>();
     public void addObserver(Observer observer) {
         observers.add(observer);
